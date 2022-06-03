@@ -1,9 +1,9 @@
-var Api_key = "743af9d714851eefed536fb14362d8ed";
-var url = "https://api.themoviedb.org/3/search/movie?api_key=743af9d714851eefed536fb14362d8ed";
+var Api_key = "";
+var url = "https://api.themoviedb.org/3/search/movie?api_key=";
 var image_url = 'https://image.tmdb.org/t/p/w500'
 
 function generateUrl(path){
-    const url = `https://api.themoviedb.org/3${path}?api_key=743af9d714851eefed536fb14362d8ed`;
+    const url = `https://api.themoviedb.org/3${path}?api_key=`;
     return url;
 }
 
